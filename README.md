@@ -18,7 +18,7 @@ This module adds enhancements to the Silverstripe Blocks module, namely:
 
 #### Composer
 
-	composer require micschk/silverstripe-blocks
+	composer require micschk/silverstripe-block_enhancements
 
 Install via composer, *+ run 'composer update'* (seems needed for the select2 module to create web-accessible 'components' dir).
 
