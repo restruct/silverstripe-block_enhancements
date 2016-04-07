@@ -1,0 +1,24 @@
+{
+    "name": "micschk/silverstripe-block_enhancements",
+    "description": "Enhancement of the silverstripe-blocks module",
+    "type": "silverstripe-module",
+    "keywords": [
+        "silverstripe",
+        "blocks",
+        "widgets"
+    ],
+    "homepage": "http://github.com/micschk/block_enhancements",
+    "authors": [
+        {
+            "name": "Restruct web & apps",
+            "email": "dev@restruct.nl"
+        }
+    ],
+    "require": {
+        "sheadawson/silverstripe-blocks": "~1.0",
+        "select2/select2": "~4.0"
+    },
+    "extra": {
+        "installer-name": "block_enhancements"
+    }
+}

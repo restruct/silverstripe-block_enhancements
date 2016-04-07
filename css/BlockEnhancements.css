@@ -1,0 +1,51 @@
+/* area bounds */
+.cms table.ss-gridfield-table tr.block-area-bound td {
+    /*padding-left: 26px;*/
+    min-height: 32px;
+    border-top: 1px solid #a6b6c1;
+    border-bottom: 1px solid #a6b6c1;
+    /*font-weight: bold;*/
+    background-color: #dae2e7;
+    cursor: default;
+}
+
+/* blocktype/classname select2 dropdowns */
+.select2-selection__rendered {
+    padding: 4px 4px 4px 0;
+}
+.select2-container .selection .select2-selection {
+    padding-left: 1px !important;
+}
+.block-type .select2,
+.select2-container .selection .select2-selection.select2-selection--single {
+    width: auto;
+    height: auto;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding-left: 4px;
+}
+.select2-selection__rendered img,
+.select2-results img {
+    vertical-align: middle;
+    margin-right: 6px;
+}
+select + .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 50%;
+    margin-top: -13px;
+}
+.ss-gridfield-blockenhancements .ss-gridfield-add-new-multi-class .select2-selection {
+    min-height: 32px;
+    min-width: 320px;
+}
+.ss-gridfield-blockenhancements .ss-gridfield-add-new-multi-class {
+    margin-top: 8px;
+}
+#pages-controller-cms-content .ss-gridfield-blockenhancements .ss-gridfield-add-new-multi-class {
+    //margin-left: 32px;
+    margin-left: 8px;
+}
+.ss-gridfield-blockenhancements .ss-gridfield-add-new-multi-class .select2-selection { min-height: 60px; }
+.ss-gridfield-blockenhancements .ss-gridfield-add-new-multi-class a.ui-button { margin-top: 16px; }
+.cms .ss-gridfield.ss-gridfield-blockenhancements > div.ss-gridfield-buttonrow-after .action.add-existing-search { 
+    margin-top: 24px;
+}

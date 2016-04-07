@@ -1,0 +1,24 @@
+---
+Name: 'blockenhancements'
+After:
+  - 'blocks'
+  - 'gridfieldextensions'
+---
+GridFieldAddNewMultiClass:
+  showEmptyString: false
+
+Injector:
+  GridFieldConfig_BlockManager:
+    class: GFConf_BlockManagerEnhanced
+  
+UploadField:
+  extensions:
+    - 'Milkyway\SS\Core\Extensions\UploadFieldExtension'
+
+# add 'publish with blocks' action to page
+Page:
+  extensions:
+    - BlockEnhancements_SiteTreeExt
+LeftAndMain:
+  extensions:
+    - LeftAndMain_BlockActions

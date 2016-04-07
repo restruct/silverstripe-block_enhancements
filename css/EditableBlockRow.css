@@ -1,0 +1,51 @@
+/*ss-gridfield-editable-row--toggle_loaded ss-gridfield-editable-row--toggle_open*/
+
+.cms table.ss-gridfield-table tbody td.ss-gridfield-editable-row--icon-holder {
+    width: 24px;
+}
+/* Image by http://uxrepo.com/icon/edit-by-elusive */
+.ss-gridfield-editable-row--toggle {
+    cursor: pointer;
+    display: block;
+    width: 24px;
+    height: 24px;
+    /*background-image: url('../images/blockedit.svg');*/
+    /*background-size: 30px 30px;*/
+    background-color: #b3b3b3;
+    -webkit-mask-image: url('../images/blockedit.svg');
+    -webkit-mask-size: 100% 100%;
+    mask-image: url('../images/blockedit.svg');
+    mask-size: 100% 100%;
+}
+.ss-gridfield-editable-row--toggle:hover { background-color: black; }
+.ss-gridfield-editable-row--toggle.ss-gridfield-editable-row--toggle_open { background-color: gray; }
+
+.ss-gridfield-editable-row--row_hide { display: none; }
+
+.ss-gridfield-editable-row--fields .middleColumn {
+    max-width: 600px;
+}
+.field.ss-gridfield .ss-gridfield-editable-row--fields .description,
+.ss-gridfield-editable-row--fields .htmleditor .middleColumn,
+.ss-gridfield-editable-row--fields .ss-uploadfield .middleColumn {
+    /* margin-left: 0px; */
+    /* clear: left; */
+    margin-left: 184px;
+    clear: none;
+}
+.cms .ss-gridfield-editable-rows table.ss-gridfield-table tbody tr {
+    cursor: auto !important;
+}
+.cms table.ss-gridfield-table .ss-gridfield-editable-row--fields .mceLayout tr td { padding: 0; }
+.cms table.ss-gridfield-table .ss-gridfield-editable-row--fields .mceLayout tbody { background: transparent; }
+
+.ss-gridfield-editable-row--reference, 
+.ss-gridfield-editable-row--reference:hover, 
+.ss-gridfield-editable-row--row, 
+.ss-gridfield-editable-row--row:hover 
+{ background-color: #f6f7f8 !important; }
+/*.ss-gridfield-editable-row--reference td { border-top: 1px solid rgba(0, 0, 0, 0.1); }
+.ss-gridfield-editable-row--row td { border-bottom: 1px solid rgba(0, 0, 0, 0.1); }*/
+.ss-gridfield-blockenhancements .ss-gridfield-item td,
+.ss-gridfield-blockenhancements .ss-gridfield-editable-row--row td
+{ border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
