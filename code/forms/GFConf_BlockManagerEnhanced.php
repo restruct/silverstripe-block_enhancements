@@ -109,7 +109,7 @@ class GFConf_BlockManagerEnhanced extends GridFieldConfig
         //$filter->setThrowExceptionOnBadDataType(false);
         //$sort->setThrowExceptionOnBadDataType(false);
 
-        // load enhancements module
+        // load enhancements module (eg inline editing etc, needs save action @TODO: move to SiteTree only?
         if(class_exists('GF_BlockEnhancements')){
             $this->addComponent(new GF_BlockEnhancements());
         }
@@ -124,6 +124,22 @@ class GFConf_BlockManagerEnhanced extends GridFieldConfig
             // only for GF on SiteTree
             $this->addComponent(new GridFieldTitleHeader());
             $this->addComponent(new GridFieldFooter());
+            // groupable
+            $this->addComponent(new GridFieldGroupable(
+                'BlockArea',
+                'Area',
+                'none',
+                $areasFieldSource
+            ));
+//            var_dump($areasFieldSource);
+
+//            // Get available Areas (for page) enhancements inactive when in ModelAdmin/BlockAdmin
+//            if (Controller::curr() && Controller::curr()->class == 'CMSPageEditController') {
+//                // Provide defined blockAreas to JS
+//                $blockManager = Injector::inst()->get('BlockManager');
+////            $blockAreas = $blockManager->getAreasForPageType( Controller::curr()->currentPage()->ClassName );
+//                $blockAreas = $blockManager->getAreasForPageType( Controller::curr()->currentPage()->ClassName );
+//            }
         }
 
         if ($canAdd) {

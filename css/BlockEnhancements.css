@@ -1,14 +1,3 @@
-/* area bounds */
-.cms table.ss-gridfield-table tr.block-area-bound td {
-    /*padding-left: 26px;*/
-    min-height: 32px;
-    border-top: 1px solid #a6b6c1;
-    border-bottom: 1px solid #a6b6c1;
-    /*font-weight: bold;*/
-    background-color: #dae2e7;
-    cursor: default;
-}
-
 /* blocktype/classname select2 dropdowns */
 .select2-selection__rendered {
     padding: 4px 4px 4px 0;
