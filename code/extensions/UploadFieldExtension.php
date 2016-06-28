@@ -8,9 +8,9 @@
  * @credit micschk <https://github.com/micschk>
  */
 
-use SS_HTTPRequest;
-use Extension;
-use Folder;
+use SS_HTTPRequest as SS_HTTPRequest;
+use Extension as Extension;
+use Folder as Folder;
 
 class UploadFieldExtension extends Extension {
 	private static $allowed_actions = [
