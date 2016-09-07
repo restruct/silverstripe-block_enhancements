@@ -2,6 +2,9 @@
 
 *Work in progress!*
 
+![image](https://cloud.githubusercontent.com/assets/1005986/13769387/69ccd7d2-ea7f-11e5-833e-24b1102f0bc3.png)
+Drag to assign block area, block-preview images, inline-editing
+
 This module adds enhancements to the Silverstripe Blocks module, namely:
 * Visual display/preview of block layouts
 * Assign blocks to available block-areas by drag & drop
@@ -29,8 +32,3 @@ Then run dev/build and see the README of sheadawson/silverstripe-blocks for furt
 * SilverStripe CMS ~3.1
 * Silverstripe Blocks module + requirements
 * (This module contains a slightly modified copie of EditableRow by Milkyway Multimedia, thanks)
-
-### Screenshots
-
-![image](https://cloud.githubusercontent.com/assets/1005986/13769387/69ccd7d2-ea7f-11e5-833e-24b1102f0bc3.png)
-Drag to assign block area, block-preview images, inline-editing
